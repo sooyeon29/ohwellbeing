@@ -1,17 +1,26 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
-export default function Header() {
+const Header = () => {
+  const navigate = useNavigate();
   return (
     <>
       <HeadDiv>
-        <FstButton>🏠</FstButton>
+        <FstButton
+          onClick={() => {
+            navigate("/");
+          }}
+        >
+          🏠
+        </FstButton>
         <SedSpan>OH - WELL</SedSpan>
       </HeadDiv>
       <hr />
     </>
   );
-}
+};
+export default Header;
 
 const HeadDiv = styled.div`
   display: flex;

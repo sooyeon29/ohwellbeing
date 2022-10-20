@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function Layout(props) {
+const Layout = (props) => {
   return <Div>{props.children}</Div>;
-}
+};
+
+export default Layout;
 
 const Div = styled.div`
   max-width: 1200px;

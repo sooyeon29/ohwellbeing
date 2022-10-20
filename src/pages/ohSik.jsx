@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "../components/header";
 import Layout from "../components/layout";
-import MoreInfo from "../components/moreInfo/index";
+import Ohsik from "../components/ohsik/index";
 
-export default function DatInfo() {
+const OhSik = () => {
   return (
     <>
       <Layout>
         <Header />
-        <MoreInfo />
+        <Ohsik />
       </Layout>
     </>
   );
-}
+};
+
+export default OhSik;
