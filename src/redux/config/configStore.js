@@ -1,13 +1,20 @@
 import { createStore } from "redux";
-import { combineReducers } from "redux";
+import { configureStore } from "@reduxjs/toolkit";
 
-// 내가 만든 리듀서를 import해준다
-// import wordAdder from "../modules/listsaver";
+/*reducer toolkit Slice.reducer
+ */
+import ohsik from "../modules/ohsikSlice";
+import dadat from "../modules/dadatSlice";
+import ohsiks from "../modules/ohsiksSlice";
 
 // 내가 만든 리듀서를 넣어준다
-const rootReducer = combineReducers({
-  //   wordAdder: wordAdder,
+const store = configureStore({
+  reducer: {
+    ohsik: ohsik,
+    ohsiks: ohsiks,
+    dadat: dadat,
+  },
+  devTools: process.env.NODE_ENV !== "production",
 });
-const store = createStore(rootReducer);
 
 export default store;

@@ -1,19 +1,64 @@
 {
-  "posts": [
+  "ohwell": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "샐러드",
+      "nickname": "테스트",
+      "memo": "테스트 입니다 :)"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "ㄴㄴㄴ",
+      "nickname": "ㄴㄴㄴ",
+      "memo": "ㄴㄴㄴ",
+      "time": "점심 🌈",
+      "id": 5
+    },
+    {
+      "title": "ff",
+      "nickname": "ff",
+      "memo": "ㄴㄴㄴggg",
+      "time": "아침 🌞",
+      "id": 6
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "dadats": [
+    {
+      "nickname": "1번",
+      "memo": "1번이용",
+      "id": 1
+    },
+    {
+      "nickname": "dfdf",
+      "memo": "dfdf",
+      "id": 2
+    },
+    {
+      "nickname": "ㄴㄴㄴ",
+      "memo": "11111",
+      "ohwellId": 4,
+      "date": "2022.10.20 오후 14:42:9",
+      "id": 3
+    },
+    {
+      "nickname": "ㄹㄹㄹ",
+      "memo": "ㄹㄹㄹ",
+      "ohwellId": 1,
+      "date": "2022.10.20 오후 14:51:5",
+      "id": 4
+    },
+    {
+      "nickname": "dndnd",
+      "memo": "dndnd",
+      "ohwellId": 5,
+      "date": "2022.10.20 오후 17:44:9",
+      "id": 5
+    },
+    {
+      "nickname": "fgfgf",
+      "memo": "fgfgfg",
+      "ohwellId": 6,
+      "date": "2022.10.20 오후 17:45:0",
+      "id": 6
+    }
+  ]
 }

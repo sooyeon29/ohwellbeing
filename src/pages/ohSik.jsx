@@ -1,15 +1,17 @@
 import React from "react";
-import Dats from "../components/dats/index";
 import Header from "../components/header";
 import Layout from "../components/layout";
+import Ohsik from "../components/ohsik/index";
 
-export default function AllDats() {
+const OhSik = () => {
   return (
     <>
       <Layout>
         <Header />
-        <Dats />
+        <Ohsik />
       </Layout>
     </>
   );
-}
+};
+
+export default OhSik;
